@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.project.trashguideline">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".MYApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AccountDeleteDialog"></activity>
+        <activity android:name=".AccountSettingActivity" />
+        <activity android:name=".PostingBoard" />
+        <activity android:name=".uploadchooser" />
+        <activity android:name=".auth.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDRGHhgooQtQRM-twMBtHPQLiBir6j6b2w" />
+
+        <activity android:name=".GuideLine" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".auth.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".PingDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".AccountDeleteActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ReportSeparateActivity" android:screenOrientation="portrait"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- meta-data는 provider가 어디서 파일을 가져올지 경로를 지정해주는 부분 -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">요기버려</string>
+
+    <string name="main_title">요기버려</string>
+    <string name="plese_upload_image">이미지를 업로드 해주세요</string>
+    <string name="upload_image">이미지 업로드</string>
+    <string name="camera">카메라</string>
+    <string name="gallery">사진첩</string>
+    <string name="cancle">취소</string>
+</resources>

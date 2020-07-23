@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "205825200136",
+    "firebase_url": "https://trashguideline.firebaseio.com",
+    "project_id": "trashguideline",
+    "storage_bucket": "trashguideline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205825200136:android:c6198f04f4e878e97201bd",
+        "android_client_info": {
+          "package_name": "my.project.trashguideline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205825200136-pt3kmhv7trc099iaisjhlkfupcp9l9k0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.project.trashguideline",
+            "certificate_hash": "f1ec09898d6b9d0daae8841322d2e6bc216ac31d"
+          }
+        },
+        {
+          "client_id": "205825200136-9m4pumakikiqeirv85l44q01l7drnnrv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.project.trashguideline",
+            "certificate_hash": "136d1d75d5c1cafc4c614af8d2ec8bf0bc216f4f"
+          }
+        },
+        {
+          "client_id": "205825200136-se1vra9dso4t34hom934c9o7ebsk2lcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-ZRD5GmfG1Uj1xNYCCsbmgkazF1o6v1U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205825200136-se1vra9dso4t34hom934c9o7ebsk2lcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
