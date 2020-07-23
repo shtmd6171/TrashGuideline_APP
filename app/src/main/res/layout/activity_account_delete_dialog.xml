@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_background"
+    android:minWidth="300dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정말 계정을 삭제 하시겠습니까?"
+        android:layout_gravity="center"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:id="@+id/delete_no"
+            android:padding="12dp"
+            android:layout_marginRight="16dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="아니오"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/button_background_2"/>
+        <TextView
+            android:id="@+id/delete_yes"
+            android:padding="12dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="예"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/color_white"
+            android:background="@drawable/button_background_2"/>
+
+    </LinearLayout>
+
+</LinearLayout>
